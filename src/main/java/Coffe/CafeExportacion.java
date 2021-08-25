@@ -11,6 +11,10 @@ public class CafeExportacion extends Cafe{
         this.verde = verde;
     }
 
+    public CafeExportacion(double precioBase, int peso) {
+        super(precioBase, peso);
+    }
+
     public CafeExportacion(double precioBase, int cif, boolean verde) {
         super(precioBase);
         this.cif = cif;
